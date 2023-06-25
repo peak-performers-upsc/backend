@@ -4,4 +4,4 @@ from . models import *
 class CurrentAffairsSerializer(serializers.ModelSerializer):
     class Meta:
         model = CurrentAffairs
-        fields = "__all__"
+        fields = "[Content]"
