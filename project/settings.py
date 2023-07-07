@@ -77,7 +77,8 @@ TEMPLATES = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://peakperformerstutorials21.com'
+    'https://peakperformerstutorials21.com',
+    'https://www.peakperformerstutorials21.com',
 ]
 
 WSGI_APPLICATION = 'project.wsgi.application'
