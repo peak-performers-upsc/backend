@@ -76,6 +76,10 @@ TEMPLATES = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://peakperformerstutorials21.com'
+]
+
 WSGI_APPLICATION = 'project.wsgi.application'
 
 
